@@ -1,7 +1,0 @@
-year_month,forecast_method,aq_resilience_subscore,heat_resilience_subscore,flood_resilience_subscore,composite_climate_resilience_score,resilience_category,recommended_urban_intervention
-2026-10,seasonal latest-calendar-month baseline,71.5,98.1,66.1,79.5,"High Resilience (Clean, Cool & Safe)","NORMAL OPERATIONS: Continue canopy, drainage, and continuous sensor monitoring."
-2026-11,seasonal latest-calendar-month baseline,51.6,99.9,81.2,75.9,"High Resilience (Clean, Cool & Safe)","NORMAL OPERATIONS: Continue canopy, drainage, and continuous sensor monitoring."
-2026-12,seasonal latest-calendar-month baseline,50.5,100.0,88.0,77.2,"High Resilience (Clean, Cool & Safe)","NORMAL OPERATIONS: Continue canopy, drainage, and continuous sensor monitoring."
-2027-01,seasonal latest-calendar-month baseline,56.0,100.0,89.7,79.8,"High Resilience (Clean, Cool & Safe)","NORMAL OPERATIONS: Continue canopy, drainage, and continuous sensor monitoring."
-2027-02,seasonal latest-calendar-month baseline,43.0,80.5,90.8,68.1,Moderate Resilience (Satisfactory),AIR POLLUTION ALERT: Activate the corresponding municipal adaptation protocol.
-2027-03,seasonal latest-calendar-month baseline,68.4,54.3,90.8,69.1,Moderate Resilience (Satisfactory),"NORMAL OPERATIONS: Continue canopy, drainage, and continuous sensor monitoring."

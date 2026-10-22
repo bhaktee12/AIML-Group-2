@@ -3,27 +3,6 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# C extensions
-*.so
-
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-
 # Virtual Environments
 venv/
 env/
@@ -31,10 +10,10 @@ ENV/
 .venv/
 
 # Streamlit local cache & telemetry
-.streamlit/machine_id*
-.streamlit/secrets.toml
+.streamlit/
 
-# Jupyter Notebook checkpoints
+# Jupyter Notebooks & checkpoints
+*.ipynb
 .ipynb_checkpoints/
 */.ipynb_checkpoints/*
 
@@ -48,22 +27,27 @@ Thumbs.db
 Desktop.ini
 .DS_Store
 
-# Local execution wrappers & temporary text dumps
+# Local execution wrappers & temporary files
 powershell.cmd
 *.pdf.txt
+*.pdf
 one of the revisions.png
 
-# Raw compressed archives (already processed into model-ready datasets)
+# Raw compressed archives & models
 *.zip
 *.tar.gz
 *.nc
 *.grib
+*.pkl
 
-# Massive raw sensor and hourly historical data dumps (>10MB raw files)
-Ravet_Nigdi_OpenAQ_Hourly_Data.csv
-Nigdi_OpenAQ_Hourly_Cleaned.csv
-Nigdi_CDS_Heatwave_Hourly.csv
-Nigdi_Flood_Vulnerability_Hourly.csv
-nigdi_heatwave_resilience_scoreboard.csv
-Nigdi_OpenAQ_Daily_Data.csv
-Nigdi_OpenAQ_Daily_Cleaned.csv
+# Image and media assets
+Report Images/
+*.png
+*.svg
+
+# All CSV datasets and scoreboards
+*.csv
+
+# Presentation guide & scratch docs
+presentation_guide.md
+urban_climate_dashboard_frontend_redesign.md

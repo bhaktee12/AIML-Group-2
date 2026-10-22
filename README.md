@@ -8,16 +8,14 @@
 
 An end-to-end multimodal Artificial Intelligence system designed to assess, predict, and explain multi-hazard urban climate vulnerability across the **PCMC Nigdi Corridor, Pune, India**. 
 
-The system integrates ground sensor feeds (OpenAQ), satellite surface water dynamics (EC JRC Global Surface Water), and Copernicus ERA5-Land climate reanalysis into an explainable **Tri-Hazard Urban Climate Resilience Score (0–100)** and delivers actionable adaptation recommendations through an interactive Streamlit intelligence dashboard.
+The system integrates ground sensor feeds (OpenAQ), satellite surface water dynamics (EC JRC Global Surface Water), and Copernicus ERA5-Land climate reanalysis into an explainable **Tri-Hazard Urban Climate Resilience Score (0–100)** and delivers actionable adaptation recommendations through an interactive Streamlit intelligence dashboard and Leaflet geospatial map.
 
 ---
 
-## 📚 Dedicated Technical Documentation
+## 📚 Technical Documentation
 
-For deep technical specifications, mathematical derivations, and architecture blueprints, refer to:
 - 🏗️ **[System Architecture (`architecture.md`)](architecture.md)**: 6-tier modular architecture, dataflow diagrams, pipeline synchronization, and Leaflet/Streamlit UI design.
 - 🔬 **[Scientific Methodology (`methodology.md`)](methodology.md)**: In-depth mathematical formulations, CPCB NAAQS / IMD Heat Action Plan benchmarks, GeoAI flood class imbalance resolution, GBDT Huber-loss training, and XAI feature importance.
-- 🎤 **[Presentation & Defense Guide (`presentation_guide.md`)](presentation_guide.md)**: Comprehensive presentation slide deck formulas, examiner Q&A prep, and key talking points.
 
 ---
 
@@ -69,18 +67,16 @@ $$\text{Resilience}_{\text{Composite}} = (0.40 \times \text{Score}_{\text{AQ}}) 
 
 ---
 
-## 📂 Project Architecture & Repository Structure
+## 📂 Repository Structure
 
 ```text
 ├── app_urban_resilience_dashboard.py      # Main Streamlit web application & UI
-├── nigdi_climate_vulnerability_map.html   # Leaflet.js interactive spatial map
-├── requirements.txt                       # Core Python dependencies
+├── nigdi_climate_vulnerability_map.html   # Leaflet.js interactive spatial website map
 ├── architecture.md                        # Complete 6-tier system architecture docs
 ├── methodology.md                         # Full mathematical & scientific methodology
-├── presentation_guide.md                  # Comprehensive defense Q&A & presentation guide
-├── urban_climate_dashboard_frontend_redesign.md # UX/UI architectural redesign docs
-├── project_abstract.pdf                   # Formal academic abstract
-├── project_presentation.pdf               # Presentation deck slides
+├── requirements.txt                       # Core Python dependencies
+├── LICENSE                                # MIT Open Source License
+├── .gitignore                             # Clean repository filters
 │
 ├── ML & Data Processing Pipelines
 │   ├── extract_cds_heatwave.py            # Copernicus CDS ERA5-Land ingestion pipeline
@@ -92,34 +88,6 @@ $$\text{Resilience}_{\text{Composite}} = (0.40 \times \text{Score}_{\text{AQ}}) 
 │   ├── step5_heatwave_resilience_scoreboard.py # Heatwave resilience scoreboard
 │   ├── step6_multihazard_fusion_explainability.py # Fusion & feature importance export
 │   └── step7_nigdi_spatial_map.py         # Geospatial Leaflet HTML generator
-│
-├── Research & Experimentation Notebooks
-│   ├── AQ_score.ipynb                     # AQ feature engineering & baseline models
-│   ├── AQ_score_hourly.ipynb              # Hourly lag autoregression analysis
-│   ├── Heatwave_dataset.ipynb             # Heat index & temperature EDA
-│   ├── openAQ_dataset.ipynb               # OpenAQ API ingestion & station calibration
-│   └── Verifications_from_workspace.ipynb # Formula & dataset consistency tests
-│
-├── Trained ML Models (.pkl)
-│   ├── nigdi_next_hour_heat_gradient_boosting.pkl
-│   └── nigdi_next_hour_pm25_gradient_boosting.pkl
-│
-├── Model-Ready Datasets & Scoreboards (.csv)
-│   ├── Nigdi_TriHazard_Monthly_Master_Scoreboard.csv # Core dashboard scoreboard
-│   ├── Nigdi_MultiHazard_Monthly_Composite_Scoreboard.csv
-│   ├── Nigdi_Future_Risk_Baseline_Forecast.csv      # 6-Month baseline risk forecast
-│   ├── Nigdi_OpenAQ_Monthly_Model_Ready.csv
-│   ├── Nigdi_CDS_Heatwave_Monthly.csv
-│   ├── Nigdi_Flood_GSW_Monthly.csv
-│   ├── Nigdi_Flood_Vulnerability_Monthly.csv
-│   └── Nigdi_OpenAQ_Hourly_Model_Ready.csv
-│
-├── Visual Assets & Diagrams
-│   ├── Report Images/                     # System architecture & infographic charts
-│   ├── climate_resilience_mark.svg        # Dashboard brand SVG mark
-│   ├── favicon_climate_community.svg      # Favicon SVG
-│   ├── sidebar_building_mark.svg          # Sidebar icon SVG
-│   └── feature_importance_*.png           # Exported SHAP/feature importance plots
 ```
 
 ---
@@ -158,7 +126,7 @@ Open your browser at `http://localhost:8501` to interact with the dashboard.
 
 ## 📊 Key Highlights of the Dashboard
 
-- **Executive KPI Cards**: Real-time display of Composite Resilience (e.g., $78.2/100$), Air Quality ($86.5$), Heat Resilience ($100.0$), and Flood Vulnerability ($34.4$).
+- **Executive KPI Cards**: Real-time display of Composite Resilience, Air Quality, Heat Resilience, and Flood Vulnerability.
 - **Interactive Geospatial Map**: Leaflet map embedded with ward-level vulnerability markers, risk buffers, and municipal waterlogged hotspots along the Old Mumbai–Pune Highway.
 - **Explainable AI (XAI)**: Feature importance analysis demonstrating how 24h rolling $\text{PM}_{2.5}$ lags, cyclical wind vectors, and surface soil moisture drive vulnerability predictions.
 - **Interactive Policy Simulator**: Real-time "What-If" slider allowing urban planners to simulate interventions (e.g., $+20\%$ urban tree canopy, stormwater drain desilting, water misting deployment).
