@@ -1,0 +1,21 @@
+year_month,zone_id,latitude,longitude,precip_monthly_total_mm,precip_max_daily_mm,gsw_flood_recurrence_pct,soil_saturation_pct,flood_resilience_subscore,flood_category,flood_adaptation_action
+2025-02,PCMC_Nigdi,18.65,73.76,0.0,0.0,4.5,16.0,90.8,High Resilience (Dry & Safe),Normal operations; routine stormwater drain and roadside bioswale clearing.
+2025-03,PCMC_Nigdi,18.65,73.76,1.2,1.0,4.0,15.0,90.8,High Resilience (Dry & Safe),Normal operations; routine stormwater drain and roadside bioswale clearing.
+2025-04,PCMC_Nigdi,18.65,73.76,8.5,6.2,4.0,14.0,87.6,High Resilience (Dry & Safe),Normal operations; routine stormwater drain and roadside bioswale clearing.
+2025-05,PCMC_Nigdi,18.65,73.76,24.0,14.5,6.0,16.0,80.2,High Resilience (Dry & Safe),Normal operations; routine stormwater drain and roadside bioswale clearing.
+2025-06,PCMC_Nigdi,18.65,73.76,148.5,42.0,35.0,32.0,43.4,Vulnerable (Inundation Alert),Inundation Alert: Deploy mobile dewatering pumps to low-lying Pavana riverbank colonies; barricade flooded underpasses; issue localized flood advisories.
+2025-07,PCMC_Nigdi,18.65,73.76,342.0,88.5,78.0,42.5,0.0,Critical Vulnerability (Flash Flood Emergency),Flash Flood Emergency: Evacuate low-lying riverbank settlements; open emergency relief shelters; halt transit across submerged bridges.
+2025-08,PCMC_Nigdi,18.65,73.76,285.0,72.0,72.0,41.0,5.4,Critical Vulnerability (Flash Flood Emergency),Flash Flood Emergency: Evacuate low-lying riverbank settlements; open emergency relief shelters; halt transit across submerged bridges.
+2025-09,PCMC_Nigdi,18.65,73.76,165.0,48.0,45.0,35.0,34.4,Vulnerable (Inundation Alert),Inundation Alert: Deploy mobile dewatering pumps to low-lying Pavana riverbank colonies; barricade flooded underpasses; issue localized flood advisories.
+2025-10,PCMC_Nigdi,18.65,73.76,52.0,22.0,18.0,26.0,66.1,Moderate Resilience (Waterlogging Watch),Waterlogging Watch: Inspect and desilt arterial road culverts along Old Pune-Mumbai Highway; verify pump station readiness.
+2025-11,PCMC_Nigdi,18.65,73.76,12.0,8.0,8.0,22.0,81.2,High Resilience (Dry & Safe),Normal operations; routine stormwater drain and roadside bioswale clearing.
+2025-12,PCMC_Nigdi,18.65,73.76,1.5,1.5,5.5,19.0,88.0,High Resilience (Dry & Safe),Normal operations; routine stormwater drain and roadside bioswale clearing.
+2026-01,PCMC_Nigdi,18.65,73.76,0.0,0.0,5.0,18.0,89.7,High Resilience (Dry & Safe),Normal operations; routine stormwater drain and roadside bioswale clearing.
+2026-02,PCMC_Nigdi,18.65,73.76,0.0,0.0,4.5,16.0,90.8,High Resilience (Dry & Safe),Normal operations; routine stormwater drain and roadside bioswale clearing.
+2026-03,PCMC_Nigdi,18.65,73.76,1.2,1.0,4.0,15.0,90.8,High Resilience (Dry & Safe),Normal operations; routine stormwater drain and roadside bioswale clearing.
+2026-04,PCMC_Nigdi,18.65,73.76,8.5,6.2,4.0,14.0,87.6,High Resilience (Dry & Safe),Normal operations; routine stormwater drain and roadside bioswale clearing.
+2026-05,PCMC_Nigdi,18.65,73.76,24.0,14.5,6.0,16.0,80.2,High Resilience (Dry & Safe),Normal operations; routine stormwater drain and roadside bioswale clearing.
+2026-06,PCMC_Nigdi,18.65,73.76,148.5,42.0,35.0,32.0,43.4,Vulnerable (Inundation Alert),Inundation Alert: Deploy mobile dewatering pumps to low-lying Pavana riverbank colonies; barricade flooded underpasses; issue localized flood advisories.
+2026-07,PCMC_Nigdi,18.65,73.76,342.0,88.5,78.0,42.5,0.0,Critical Vulnerability (Flash Flood Emergency),Flash Flood Emergency: Evacuate low-lying riverbank settlements; open emergency relief shelters; halt transit across submerged bridges.
+2026-08,PCMC_Nigdi,18.65,73.76,285.0,72.0,72.0,41.0,5.4,Critical Vulnerability (Flash Flood Emergency),Flash Flood Emergency: Evacuate low-lying riverbank settlements; open emergency relief shelters; halt transit across submerged bridges.
+2026-09,PCMC_Nigdi,18.65,73.76,165.0,48.0,45.0,35.0,34.4,Vulnerable (Inundation Alert),Inundation Alert: Deploy mobile dewatering pumps to low-lying Pavana riverbank colonies; barricade flooded underpasses; issue localized flood advisories.

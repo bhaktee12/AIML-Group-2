@@ -1,0 +1,69 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+
+# Streamlit local cache & telemetry
+.streamlit/machine_id*
+.streamlit/secrets.toml
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# IDE and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Local execution wrappers & temporary text dumps
+powershell.cmd
+*.pdf.txt
+one of the revisions.png
+
+# Raw compressed archives (already processed into model-ready datasets)
+*.zip
+*.tar.gz
+*.nc
+*.grib
+
+# Massive raw sensor and hourly historical data dumps (>10MB raw files)
+Ravet_Nigdi_OpenAQ_Hourly_Data.csv
+Nigdi_OpenAQ_Hourly_Cleaned.csv
+Nigdi_CDS_Heatwave_Hourly.csv
+Nigdi_Flood_Vulnerability_Hourly.csv
+nigdi_heatwave_resilience_scoreboard.csv
+Nigdi_OpenAQ_Daily_Data.csv
+Nigdi_OpenAQ_Daily_Cleaned.csv
